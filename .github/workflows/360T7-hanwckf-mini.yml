@@ -134,7 +134,7 @@ jobs:
          tag_name: ${{ env.release_tag }}
          body: |
              Gateway：192.168.114.1
-             Password：
+             Password：password
              Application：mwan3，ramfree，ua2f
          files: ${{ env.FIRMWARE }}/*
 
